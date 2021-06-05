@@ -1,0 +1,91 @@
+body {
+    background-color: burlywood;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+#header {
+    background-color: chocolate;
+    margin-top: -10px;
+    padding: 40px;
+}
+
+img {
+    position: absolute;
+    left: 72%;
+    margin-top: -120px;
+}
+
+#team {
+    font-size: 25px;
+    width: 20%;
+    margin-top: 10px;
+    float: left;
+    background-color: #800020;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+#name {
+    font-style: italic;
+    float: left;
+    font-size: 25px;
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color:peru;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#main ul {
+    width: 37.3%;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #800020;
+    display: table;
+    font-size: 25px;
+}
+
+li {
+    margin: 10px;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.filled {
+    font-style: italic;
+}
+
+#others {
+    margin-top: 10px;
+    float: left;
+    width: 60%;
+    border-radius: 5px;
+    background-color: #800020;
+    height: 123px;
+}
+
+#others ul {
+    font-size: 20px;
+    display: table;
+    margin: 0 auto;
+}
+
+#others a:visited {
+    color: green;
+}
+
+#seemore {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 10px;
+}
