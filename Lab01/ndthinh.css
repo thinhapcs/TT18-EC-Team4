@@ -94,7 +94,6 @@ a:focus {
 section {
     float: left;
     width: 100%;
-    padding-bottom: 3em;
 }
 
 h2 {
@@ -343,13 +342,6 @@ h2 span {
     margin-bottom: 5px;
     text-align: center;
     margin: 0 100px;
-}
-
-.avt-text {
-    height: 50px;
-    margin-bottom: 5px;
-    text-align: center;
-    margin: 0 55px;
 }
 
 .avt {
