@@ -1,61 +1,67 @@
-body {
+.body-lhphong {
 	background-color: powderblue;
 	background-image: url("src/background_p.jpg");
 	background-size: 1920px 1080px
 }
-h1 {
+
+.body-lhphong h1 {
 	color: solid black;
 	font-weight: bold;
 	text-align: center;
 }
 
-h2 {
+.body-lhphong h2 {
 	position: relative;
 	color: black;
 	text-align: left;
-	left : 30px;
+	left: 30px;
 }
-p {
+
+.body-lhphong p {
 	color: red;
 }
-.logo{
-	display:block;
+
+.logo {
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-.main-border{
-	display:flex;
+
+.main-border {
+	display: flex;
 }
-.border-heading{
+
+.border-heading {
 	position: relative;
 	top: 50px;
 	border: 3px solid black;
 	border-radius: 70px;
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 	width: 20%
 }
-.border-mid{
+
+.border-mid {
 	position: relative;
 	top: 90px;
-	left : 50px;
+	left: 50px;
 	border: 2px solid black;
 	border-radius: 50px;
 	margin: auto;
 	width: 44%
 }
 
-.border-right{
+.border-right {
 	position: relative;
 	top: 90px;
-	left : 0;
+	left: 0;
 	border: 2px solid black;
 	border-radius: 50px;
 	margin: auto;
 	width: 22%
 }
 
-.border-left{
+.border-left {
 	position: relative;
 	top: 90px;
 	border: 2px solid black;
@@ -64,27 +70,28 @@ p {
 	width: 20%
 }
 
-.border-left img{
-	width : 250px;
+.border-left img {
+	width: 250px;
 	height: 250px;
 	position: relative;
-	
+
 }
 
-.myimg{
-  position: relative;
-  top: 105px;
-  left : 50px;
-  border: 3px solid blue;
-  width:250px;
-  height:250px;
-  object-fit:cover;
-  border-radius:50%;
+.myimg {
+	position: relative;
+	top: 105px;
+	left: 50px;
+	border: 3px solid blue;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 50%;
 }
-.teamimg{
-  border: 2px solid black;
-  width:100px;
-  height:100px;
-  object-fit:cover;
-  border-radius:50%;
+
+.teamimg {
+	border: 2px solid black;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: 50%;
 }

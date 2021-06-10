@@ -1,0 +1,646 @@
+/*
+ This is CSS part
+ Author: Ngo Duc Thinh
+ Just gonna try to get familiar
+ with HTML/CSS
+*/
+
+.body-ndthinh {
+    background: #67B26F;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #000;
+}
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+
+
+.html-ndthinh {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.body-ndthinh header section section {
+    display: block;
+}
+
+.body-ndthinh {
+    color: #222;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+.avt a {
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+.avt a:hover a:focus {
+    color: #373e18;
+}
+
+.body-ndthinh section {
+    float: left;
+    width: 100%;
+}
+
+#float-right {
+    float: right;
+}
+
+/* ******************************************************
+	Script Top
+*********************************************************/
+
+.ScriptTop {
+    background: #fff none repeat scroll 0 0;
+    float: left;
+    font-size: 0.69em;
+    font-weight: 600;
+    line-height: 2.2;
+    padding: 12px 0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+/* To Navigation Style 1*/
+.ScriptTop ul {
+    margin: 24px 0;
+    padding: 0;
+    text-align: left;
+}
+
+.ScriptTop li {
+    list-style: none;
+    display: inline-block;
+}
+
+.ScriptTop li a {
+    background: #6a4aed none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.ScriptTop li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+/* ******************************************************
+	Script Header
+*********************************************************/
+
+.ScriptHeader {
+    float: left;
+    width: 100%;
+    padding: 0 0;
+}
+
+.rt-heading {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Scriptcontent {
+    line-height: 28px;
+}
+
+.ScriptHeader h1 {
+    font-family: "brandon-grotesque", "Brandon Grotesque", "Source Sans Pro", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #6a4aed;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    line-height: normal;
+}
+
+.ScriptHeader h2 {
+    color: #312c8f;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0 0;
+    line-height: normal;
+
+}
+
+.ScriptHeader h1 span {
+    display: block;
+    padding: 0;
+    font-size: 22px;
+    opacity: 0.7;
+    margin-top: 5px;
+
+}
+
+.ScriptHeader span {
+    display: block;
+    padding: 0;
+    font-size: 22px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.header-box {
+    color: white;
+    background-color: #17a2b8;
+    width: 500px;
+    height: 70px;
+    object-fit: cover;
+    margin: 10px auto;
+    border-radius: 5%;
+}
+
+.rt-container {
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.rt-row:before,
+.rt-row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.rt-row:after {
+    clear: both;
+}
+
+[class^="col-rt-"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding: 0 15px;
+    min-height: 1px;
+    position: relative;
+}
+
+
+@media (min-width: 768px) {
+    .rt-container {
+        width: 750px;
+    }
+
+    [class^="col-rt-"] {
+        float: left;
+        width: 49.9999999999%;
+    }
+
+    .col-rt-6,
+    .col-rt-12 {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .rt-container {
+        width: 1170px;
+    }
+
+    .col-rt-1 {
+        width: 16.6%;
+    }
+
+    .col-rt-2 {
+        width: 30.33%;
+    }
+
+    .col-rt-3 {
+        width: 50%;
+    }
+
+    .col-rt-4 {
+        width: 67.664%;
+    }
+
+    .col-rt-5 {
+        width: 83.33%;
+    }
+}
+
+@media only screen and (min-width:240px) and (max-width: 768px) {
+
+    .ScriptTop h1,
+    .ScriptTop ul {
+        text-align: center;
+    }
+
+    .ScriptTop h1 {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .ScriptTop ul {
+        margin-top: 12px;
+    }
+
+    .ScriptHeader h1,
+    .ScriptHeader h2,
+    .scriptnav ul {
+        text-align: center;
+    }
+
+    .scriptnav ul {
+        margin-top: 12px;
+    }
+
+    #float-right {
+        float: none;
+    }
+}
+
+.avt-link {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.avt {
+    width: 100%;
+    height: 100%px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*---------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+/*
+ This is CSS part
+ Author: Do Khac Minh Nhat
+ Just gonna try to get familiar
+ with HTML/CSS
+*/
+
+.html-dkmnhat {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.body-dkmnhat div h1 h4 h5 h6 p i table tr th td header {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.img-dkmnhat {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+header {
+    display: block;
+}
+
+.body-dkmnhat {
+    line-height: 1;
+}
+
+.table-dkmnhat {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.html-dkmnhat {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    display: inline-block;
+    position: relative;
+    background-image: url(src/background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 0;
+    padding-top: 41.20%;
+}
+
+.text-header {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+.avatar-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-item {
+    width: 64px;
+    height: 64px;
+    margin: 0 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*---------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+/*
+ This is CSS part
+ Author: Nguyen Thanh Dat
+ Just gonna try to get familiar
+ with HTML/CSS
+*/
+
+.body-ntdat {
+    background-color: burlywood;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.body-ntdat h1 {
+    font-size: 60px;
+}
+
+#header {
+    background-color: chocolate;
+    margin-top: -10px;
+    padding: 40px;
+}
+
+.img-ntdat {
+    float: right;
+    left: 72%;
+    margin-top: -120px;
+}
+
+#team {
+    font-size: 25px;
+    width: 20%;
+    margin-top: 10px;
+    float: left;
+    background-color: #800020;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+}
+
+#name {
+    font-style: italic;
+    float: left;
+    font-size: 25px;
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: peru;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#main ul {
+    width: 37.3%;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: #800020;
+    display: table;
+    font-size: 25px;
+}
+
+.body-ntdat li {
+    margin: 10px;
+}
+
+.info {
+    font-weight: bold;
+}
+
+.filled {
+    font-style: italic;
+}
+
+#others {
+    margin-top: 10px;
+    float: left;
+    width: 60%;
+    border-radius: 5px;
+    background-color: #800020;
+    height: 124px;
+}
+
+#others ul {
+    font-size: 20px;
+    display: table;
+    margin: 0 auto;
+}
+
+#others a:visited {
+    color: green;
+}
+
+#seemore {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#frozen {
+    width: 1905px;
+}
+
+#footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+/*---------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------*/
+/*
+ This is CSS part
+ Author: La Hoang Phong
+ Just gonna try to get familiar
+ with HTML/CSS
+*/
+
+.body-lhphong {
+    background-color: powderblue;
+    background-image: url("src/background_p.jpg");
+    background-size: 1920px 1080px
+}
+
+.body-lhphong h1 {
+    color: solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.body-lhphong h2 {
+    position: relative;
+    color: black;
+    text-align: left;
+    left: 30px;
+}
+
+.body-lhphong p {
+    color: red;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-border {
+    display: flex;
+}
+
+.border-heading {
+    position: relative;
+    top: 50px;
+    border: 3px solid black;
+    border-radius: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%
+}
+
+.border-mid {
+    position: relative;
+    top: 90px;
+    left: 50px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: auto;
+    width: 44%
+}
+
+.border-right {
+    position: relative;
+    top: 90px;
+    left: 0;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: auto;
+    width: 22%
+}
+
+.border-left {
+    position: relative;
+    top: 90px;
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: left;
+    width: 20%
+}
+
+.border-left img {
+    width: 250px;
+    height: 250px;
+    position: relative;
+
+}
+
+.myimg {
+    position: relative;
+    top: 105px;
+    left: 50px;
+    border: 3px solid blue;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.teamimg {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
